@@ -26,6 +26,14 @@ public class MinRemainingValues {
                 varMin = var;
                 minDomainsize = i;
             }
+            /*
+            On n'utilise pas le Degree Heuristic car dans ce problème toutes les variables ont le même nombre de contrainte.
+            Donc il ne permet pas de faire de sélection
+            else if (i == minDomainsize) {
+                varMin = DegreeHeuristic(assignment,csp,varMin,var);
+                minDomainsize = i;
+            }
+            */
         }
         return varMin;
     }
