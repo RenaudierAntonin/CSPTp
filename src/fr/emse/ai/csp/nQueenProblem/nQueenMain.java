@@ -16,9 +16,10 @@ public class nQueenMain {
         System.out.println("Rentrez le nombre de reines de que vous souhaitez placer sur l'échéquier : ");
         n = src.nextInt();
         System.out.println("Vous avez choisi " +n +" reines");
-        nQueenCSP map = new nQueenCSP(n);
+        nQueenCSP mapBTS = new nQueenCSP(n);
+        nQueenCSP mapMCS = new nQueenCSP(n);
         BacktrackingStrategy bts = new BacktrackingStrategy();
-        MinConflictsStrategy mcs = new MinConflictsStrategy(100);
+        MinConflictsStrategy mcs = new MinConflictsStrategy(100000);
         bts.addCSPStateListener(new CSPStateListener(){
             @Override
             public void stateChanged(Assignment assignment, CSP csp) {
@@ -32,14 +33,15 @@ public class nQueenMain {
         });
         //Calcul du temps de résolution pour la Backtracking Strategy
         double startBTS = System.currentTimeMillis();
-        Assignment solBTS = bts.solve(map);
+        Assignment solBTS = bts.solve(mapBTS);
         double endBTS = System.currentTimeMillis();
         solBTS.display();
         System.out.println("Time to solve with Backtracking = " + (endBTS - startBTS));
 
+
         //Calcul du temps de résolution pour la MinConflict Strategy
         double startMCS = System.currentTimeMillis();
-        Assignment solMCS = mcs.solve(map);
+        Assignment solMCS = mcs.solve(mapMCS);
         double endMCS = System.currentTimeMillis();
         solMCS.display();
         System.out.println("Time to solve with Min Conflit Strategy = " + (endMCS - startMCS));

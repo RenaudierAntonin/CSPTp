@@ -1,6 +1,7 @@
 package fr.emse.ai.csp.core;
 
 import java.util.ArrayList;
+import java.util.PriorityQueue;
 
 /**
  * Classe représentant l'heuristique LeastConstrainingValue
@@ -16,6 +17,12 @@ public class LeastConstrainingValue {
      */
     public static ArrayList<Object> orderLeastConstrainingValue(Variable var, Assignment assignment, CSP csp) {
 
+        /* On peut également stocker les variables dans une priorityQueue afin de les tier à l'ajout, cependant cela ne semble pas améliorer le temps de calcul
+        ValueDisponibilityComparator comparator = new ValueDisponibilityComparator();
+
+        //On crée une queue de priorité qui va directement trier les valeurs à l'ajout dans la liste
+        PriorityQueue<ValueDisponibility> valueDisponibilityList = new PriorityQueue<ValueDisponibility>(csp.getVariables().size(),comparator);
+        */
         ArrayList<Double> DisponibilityList = new ArrayList<>();
         ArrayList<Object> ValueList = new ArrayList<>();
         //On crée la liste des variables non assignées différentes de la variable en cours de traitement
@@ -46,6 +53,10 @@ public class LeastConstrainingValue {
                         nbDisponibility -=1;
                     allDisponibility += nbDisponibility;
                 }
+                /* On crée et on ajoute les valeurs dans la PriorityQueue
+                ValueDisponibility valueDisponibility = new ValueDisponibility(allDisponibility,value);
+                valueDisponibilityList.add(valueDisponibility);
+                */
                 DisponibilityList.add(allDisponibility);
                 ValueList.add(value);
             }
@@ -65,6 +76,12 @@ public class LeastConstrainingValue {
                 }
             }
         }
+
+        /* On récupère les valeurs qui ont été triées
+        for (int i = 0; i<valueDisponibilityList.size();i++) {
+            ValueList.add(valueDisponibilityList.remove().getValue());
+        }
+            */
         return ValueList;
     }
 }

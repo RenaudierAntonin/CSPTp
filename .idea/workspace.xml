@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23829bb3-0de7-4dab-b0b2-5038134f19aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/core/DegreeHeuristic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/ValueDisponibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/ValueDisponibilityComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/core/BacktrackingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/core/BacktrackingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/core/LeastConstrainingValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/core/LeastConstrainingValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/core/MinRemainingValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/core/MinRemainingValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/core/NotTakeConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/core/NotTakeConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/fourQueenProblem/fourQueenCSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/fourQueenProblem/fourQueenCSP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/nQueenProblem/nQueenCSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/nQueenProblem/nQueenCSP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/nQueenProblem/nQueenMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/nQueenProblem/nQueenMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/nQueenProblem/nQueenMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSPTp/fr/emse/ai/csp/nQueenProblem/nQueenMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/BacktrackingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/BacktrackingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/DegreeHeuristic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/DegreeHeuristic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/LeastConstrainingValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/LeastConstrainingValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/MinRemainingValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/MinRemainingValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/NotTakeConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emse/ai/csp/core/NotTakeConstraint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emse/ai/csp/fourQueenProblem/fourQueenCSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emse/ai/csp/fourQueenProblem/fourQueenCSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emse/ai/csp/nQueenProblem/nQueenCSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emse/ai/csp/nQueenProblem/nQueenCSP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/emse/ai/csp/nQueenProblem/nQueenMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emse/ai/csp/nQueenProblem/nQueenMain.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,23 +41,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="63" />
+          <entry key="java" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="63" />
+          <entry key="JAVA" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="8793" />
+          <entry key="java" value="9893" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8793" />
+          <entry key="JAVA" value="9893" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -60,10 +66,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/nQueenProblem/nQueenMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/MinConflictsStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-71">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/MinRemainingValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="-70">
               <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/BacktrackingStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +110,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/LeastConstrainingValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+            <state relative-caret-position="134">
+              <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,13 +156,15 @@
         <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/fourQueenProblem/fourQueenMain.java" />
         <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/fourQueenProblem/NotTakeConstraint.java" />
         <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/core/Assignment.java" />
-        <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/nQueenProblem/nQueenMain.java" />
-        <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/core/BacktrackingStrategy.java" />
         <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/core/DegreeHeuristic.java" />
         <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/core/NotTakeConstraint.java" />
         <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/fourQueenProblem/fourQueenCSP.java" />
         <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/nQueenProblem/nQueenCSP.java" />
         <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/core/MinRemainingValues.java" />
+        <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/core/ValueDisponibility.java" />
+        <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/core/ValueDisponibilityComparator.java" />
+        <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/core/BacktrackingStrategy.java" />
+        <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/nQueenProblem/nQueenMain.java" />
         <option value="$PROJECT_DIR$/src/fr/emse/ai/csp/core/LeastConstrainingValue.java" />
       </list>
     </option>
@@ -131,7 +175,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="32" />
     <option name="width" value="1616" />
@@ -218,7 +262,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556031832873" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556034398585" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -323,18 +367,18 @@
       <workItem from="1554896232221" duration="686000" />
       <workItem from="1554980803419" duration="1366000" />
       <workItem from="1554993155423" duration="5035000" />
-      <workItem from="1556028687294" duration="3530000" />
+      <workItem from="1556028687294" duration="5658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22587000" />
+    <option name="totallyTimeSpent" value="24715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="32" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17930591" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17930591" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -343,7 +387,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19002695" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25067386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,27 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/nQueenProblem/nQueenMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/Assignment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/MinConflictsStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -512,16 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/BacktrackingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/CSP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -529,17 +546,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/ValueDisponibility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/ValueDisponibilityComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="90" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/MinConflictsStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/nQueenProblem/nQueenMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/MinRemainingValues.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="-70">
           <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/BacktrackingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/emse/ai/csp/core/LeastConstrainingValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+        <state relative-caret-position="134">
+          <caret line="53" column="56" lean-forward="true" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

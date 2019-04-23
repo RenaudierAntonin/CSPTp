@@ -69,6 +69,7 @@ public class BacktrackingStrategy extends SolutionStrategy {
             //On choisi la méthode via la méthode de la MinRemainingValues
             Variable var = selectMinRemainingValues(assignment,csp);
             //On tri les valeurs en fonction des contraintes qu'elles impliquent aux autres
+            //for (Object value : orderDomainValues(var, assignment, csp)) {
             for (Object value : orderLeastConstrainingValue(var, assignment, csp)) {
                 assignment.setAssignment(var, value);
                 fireStateChanged(assignment, csp);
