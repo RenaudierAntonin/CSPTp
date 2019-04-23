@@ -5,6 +5,10 @@ import fr.emse.ai.csp.core.Domain;
 import fr.emse.ai.csp.core.NotTakeConstraint;
 import fr.emse.ai.csp.core.Variable;
 
+/**
+ * Classe qui modélise le problème des 4 reines
+ * Même approche que pour les N reines
+ */
 public class fourQueenCSP extends CSP {
     public static final Variable Q0 = new Variable("Q_0");
     public static final Variable Q1 = new Variable("Q_1");

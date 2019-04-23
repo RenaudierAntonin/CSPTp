@@ -11,7 +11,7 @@ public class DegreeHeuristic {
     public static Variable selectDegreeHeuristic(Assignment assignment, CSP csp, Variable var1, Variable var2) {
 
 
-        //On est sensé prendre la variable avec le plus contrainte avec les variables
+        //On est censé prendre la variable avec le plus contrainte avec les variables
         //Cependant elles ont toutes le même nombre de contrainte ici
         //Donc c'est inutile pour ce problème
         double constraintVar1 = csp.getConstraints(var1).size();

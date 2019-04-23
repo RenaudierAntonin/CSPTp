@@ -63,9 +63,12 @@ public class BacktrackingStrategy extends SolutionStrategy {
         if (assignment.isComplete(csp.getVariables())) {
             result = assignment;
         } else {
+            //On choisi la première variable non attribuée
             //Variable var = selectUnassignedVariable(assignment, csp);
+
+            //On choisi la méthode via la méthode de la MinRemainingValues
             Variable var = selectMinRemainingValues(assignment,csp);
-            //System.out.println(var.getName());
+            //On tri les valeurs en fonction des contraintes qu'elles impliquent aux autres
             for (Object value : orderLeastConstrainingValue(var, assignment, csp)) {
                 assignment.setAssignment(var, value);
                 fireStateChanged(assignment, csp);

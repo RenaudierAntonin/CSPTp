@@ -4,6 +4,10 @@ import fr.emse.ai.csp.core.*;
 
 import java.util.Scanner;
 
+/**
+ * Classe qui permet de résoudre le problème des N Reines avec le N de votre choix
+ * On utilise la Backtracking Strategy ou la MinConflicts Strategy
+ */
 public class nQueenMain {
 
     public static void main (String[] args) {
@@ -26,16 +30,19 @@ public class nQueenMain {
                 //System.out.println("CSP evolved : " + csp);
             }
         });
+        //Calcul du temps de résolution pour la Backtracking Strategy
         double startBTS = System.currentTimeMillis();
         Assignment solBTS = bts.solve(map);
         double endBTS = System.currentTimeMillis();
         solBTS.display();
         System.out.println("Time to solve with Backtracking = " + (endBTS - startBTS));
-        /*double startMCS = System.currentTimeMillis();
+
+        //Calcul du temps de résolution pour la MinConflict Strategy
+        double startMCS = System.currentTimeMillis();
         Assignment solMCS = mcs.solve(map);
         double endMCS = System.currentTimeMillis();
         solMCS.display();
         System.out.println("Time to solve with Min Conflit Strategy = " + (endMCS - startMCS));
-        */
+
     }
 }
